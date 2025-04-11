@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="shf.css">
+</head>
+
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <a href="HomePage.html" class="homeL">
+
+        <img src="images/Untitled design (1).png" width="40" height="40" alt="Home">
+        <p>HOME</p>
+
+      </a>
+    </header>
+
+    <div class="main">
+
+      <aside class="sidebar">
+
+        <div class="AlignLogo">
+
+          <img src="images/R-removebg-preview.png" width="125" height="125" alt="logo" class="logo">
+
+          <div class="forT">
+
+            <div class="title">Sample Title</div>
+
+            <div class="job">Software Developer and Video Editor</div>
+
+          </div>
+        </div>
+
+        <h2><em class="one">Contact Me!</em></h2>
+
+        <ul class="Contacts">
+
+          <li class="MailParent">
+            Email Address
+            <ul>
+              <li><a href="mailto:rohan.dr.gd2@gmail.com" class="Mail" id = "Conts">rohan.dr.gd2@gmail.com</a></li>
+              <li><a href="mailto:rlevangelista2254qc@student.fatima.edu.ph" class="Mail" id = "Conts">rlevangelista2254qc@student.fatima.edu.ph</a></li>
+            </ul>
+          </li>
+
+          <li class="ConParent">
+            Contact Number
+            <ul>
+              <li><a href="tel:+639350848414" class="Number" id = "Conts">09350848414</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <section class = "Socials">
+          <div class = "row1">
+
+          <a href = "https://www.facebook.com/monsamuel27">
+            <img src="images/facebook-color.512x512.png" alt="facebook" width="60" class = "Himg"></a>
+          <a href = "https://www.instagram.com/sammie_427/?utm_source=ig_web_button_share_sheet">
+          <img src="images/instagram.512x511.png" alt="Instagram" width="60" class = "Himg"></a>
+          </div>
+          <a href = "https://x.com/DnomHor">
+          <div class = "row2">
+          <img src="images/488199835_2972531936387667_8590810980108560447_n.png" alt="X" width="60" class = "Himg"></a>
+          <a href = "https://bit.ly/4lmf09v">
+          <img src="images/telegram.512x512.png" alt="Telegram" width="60" class = "Himg"></a>
+          </div>
+        </section>
+      </aside>
+
+      <section class="content">
+
+        <div class="forBG">
+<div class = "placeholder">
+          <img src="images/placeholder.png" width="1560" height="140" class="placeholder"></div>
+          <nav class="tab-nav">
+            <a href="About.html" class="tab-link">About Me</a>
+            <a href="Portfolio.html" class="tab-link">Portfolio</a>
+           
+          </nav>
+        </div>
+
+<div class = "opacity"> 
+  <div class="dot-line">
+    <div class="dot"></div>
+    <div class="line"></div>
+    <div class="dot2"></div>
+  </div>
+        <div class="flexing">
+          
+            
+          <!-- Left side: Text -->
+          <div class="bio-text">
+            <h1 class="Bigger">Rohan Evangelista</h1>
+            <p class="Smaller">
+              Hi! I am Roban, a passionate and dedicated CS<br>
+              student from Our Lady of Fatima University.<br>
+              I specialize in Software Development, Video Editing,<br>
+              and crafting creative solutions to challenging<br>
+              problems.
+            </p>
+          </div>
+         
+
+          <div class="profile-wrapper">
+            <article class = "pfp"><img class="Profile" src="images/Profile.jpg" alt="Profile Image"><p>What you lookin at</p></article>
+            <p class="center">Something text hello or what</p>
+          </div>
+    </div>
+  </div> 
+      </section>
+      
+    </div>
+  
+  
+
+  <footer>
+    <p>&copy; Rohan Mon Samuel Evangelista 2025. All rights reserved.</p>
+  </footer>
+</body>
+
+
+<style>
+
+.homeL {
+
+margin: 0 0 0 5px;
+color: blue;
+font-family: 'CalibriBold';
+font-weight: bold;
+font-size: 15px;
+
+
+}
+  .tab-nav {
+  position: absolute;
+  top: 120px;       
+  left: 20px;          
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.tab-link {
+  background-color: #3a415e;
+  padding: 10px 20px;
+  line-height: 1.2;              
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'CalibriBold';
+  font-size: 16px;
+  color: #ffffff;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  opacity: 1;
+}
+
+.tab-link:hover {
+  background-color: #0033ff;
+  transition: ease-in 0.3s;
+  transform: scale(1.1);
+  transform: translateY(-5px);
+}
+
+.dot-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px;
+    z-index: -1;
+    margin-left: 235px;
+  }
+  
+  .dot, .dot2 {
+    width: 12px;
+    height: 12px;
+    background-color: #8d5858; /* matches About tab color */
+    border-radius: 50%;
+  
+  }
+
+  
+  
+  .line {
+    width: 1195px;
+    height: 2px; /* adjust depending on your content height */
+    background-color: #8d5858;
+    margin-left: 3px;
+    margin-right: 3px;
+    
+  }
+
+  Body {
+
+animation: opac 2s ease forwards;
+}
+
+  
+</style>
+</html>
+
+

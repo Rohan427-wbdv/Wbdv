@@ -1,0 +1,209 @@
+@font-face {
+
+    font-family: 'CalibriBold';
+    src: url('fonts/calibri-font-family/calibri-bold.ttf') format('truetype');
+  
+  }
+  @font-face {
+  
+    font-family: 'Calibri';
+    src: url('fonts/calibri-font-family/calibri-regular.ttf') format('truetype');
+  
+  }
+
+
+
+.bio-section {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+  
+  .dot-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .dot, .dot2 {
+    width: 12px;
+    height: 12px;
+    background-color: #8d5858; /* matches About tab color */
+    border-radius: 50%;
+  
+  }
+
+  .dot2 {
+    margin-top: 5px;
+  }
+  
+  .line {
+    width: 2px;
+    height: 460px; /* adjust depending on your content height */
+    background-color: #8d5858;
+    margin-top: 5px;
+  }
+
+  .move a {
+
+    font-size: 40px;
+    font-weight: bolder;
+    font: 'CalibriBold';
+    text-decoration: none;
+    
+    
+  }
+
+  .move {
+
+    justify-items: center;
+    margin-bottom: 0px;
+    font-size: 15px;
+    
+
+  }
+
+  .move a {
+
+    color:#7fccc8;
+  } 
+
+  .move:hover {
+
+    transform: scale(1.2);
+    transition: .5s ease;
+    color: #00fff2;
+  }
+
+  .move a:hover {
+
+    color: #00fff2;
+    transition: .5s ease;
+
+  }
+  
+  .bio-content {
+    max-width: 800px;
+    font-family: 'Calibri';
+    font-size: 19px;
+    line-height: 1.5;
+    color: #333;
+ 
+  
+  }
+
+  .experience p:hover, .bio-content p:hover {
+text-decoration: 2px underline cyan;
+transition: all 0.5s ease;
+
+  }
+
+
+  .side-panel img {
+
+    border: 2px solid cyan;
+    box-shadow: 3px 3px 15px cyan;
+  }
+
+.bio-section {
+   
+    display: flex;
+    max-width: 60%;
+}
+  
+h1 {
+    color: #3a415e;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 0px
+}
+
+
+
+.bio-section p {
+
+    margin: 0px;
+}
+
+
+
+  .about-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+  
+  .experience {
+    max-width: 800px;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Calibri';
+    margin-top: 4px;
+    line-height: 1.6;
+    padding: 0 20px;
+    overflow: auto;
+    margin-bottom: 0px;
+  }
+  
+  .experience h3 {
+    margin-bottom: 5px;
+    
+    font-family: 'CalibriBold';
+  }
+  
+  .experience p {
+    margin-bottom: 0px;
+    color: #333;
+    
+  }
+
+  
+
+  
+
+  .BioProfile {
+
+    width: 275px;
+    height: auto;
+    
+    border-radius: 500px;
+    margin-bottom: 10px;
+  }
+
+  .side-panel {
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bbody {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+    gap: 40px; /* optional: adds space between bio, image, and experience */
+  }
+
+  .wow {
+    margin-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'CalibriBold';
+  }
+
+  .wower {
+    margin-top: 0px;
+    font-family: 'Calibri';
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+  }

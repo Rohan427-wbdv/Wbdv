@@ -1,0 +1,126 @@
+  
+  @font-face {
+
+    font-family: 'CalibriBold';
+    src: url('fonts/calibri-font-family/calibri-bold.ttf') format('truetype');
+  
+  }
+  @font-face {
+  
+    font-family: 'Calibri';
+    src: url('fonts/calibri-font-family/calibri-regular.ttf') format('truetype');
+  
+  }
+
+.dot-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .dot, .dot2 {
+    width: 12px;
+    height: 12px;
+    background-color: #8d5858; /* matches About tab color */
+    border-radius: 50%;
+  
+  }
+
+  .dot2 {
+    margin-top: 5px;
+  }
+  
+  .line {
+    width: 2px;
+    height: 575px; /* adjust depending on your content height */
+    background-color: #8d5858;
+    margin-top: 5px;
+  }
+
+  .ports-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .right-dot-line {
+    margin-left: 20px;
+    margin-right: 0;
+    order: 2; /* make sure it appears on the right in a flex container */
+  }
+  
+  .ports-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+
+  .Projects {
+
+    text-align: left;
+
+  }
+
+  .he1 {
+
+    font-family: 'CalibriBold';
+    font-size: 33px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .P1 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+  
+  }
+
+  .P2 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    margin-bottom: -32px;
+  }
+
+  .P1 h2, .P2 h2 {
+
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 28px;
+    color: rgb(4, 4, 177);
+
+  }
+
+
+  .P1 p, .P2 p {
+
+    font-size: 23px;
+    margin-left: 50px;
+  }
+
+  Body {
+
+    animation: opac 2s ease forwards;
+  }
+
+  .prev {
+
+    box-shadow: 6px 6px 25px black;
+  }
+
+
+  
